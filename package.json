@@ -1,6 +1,6 @@
 {
-  "name": "create-fluma-app",
-  "version": "1.0.0",
+  "name": "@flumadev/create-fluma-app",
+  "version": "0.0.0",
   "description": "Create web application with the fluma doc pattern",
   "license": "MIT",
   "main": "index.js",
@@ -15,14 +15,13 @@
     "pub:release": "pnpm build && npm publish"
   },
   "bin": {
-    "create-fluma-app": "./dist/index.js"
+    "create-fluma-app": "dist/index.js"
   },
   "keywords": [],
   "author": "Fluma",
   "repository": {
     "type": "git",
-    "url": "https://github.com/t3-oss/create-t3-app.git",
-    "directory": "cli"
+    "url": "git+https://github.com/flumadev/create-fluma-app"
   },
   "type": "module",
   "exports": "./dist/index.js",
@@ -43,5 +42,8 @@
     "tsup": "^6.1.2",
     "type-fest": "^2.14.0",
     "typescript": "^4.7.4"
+  },
+  "bugs": {
+    "url": "https://github.com/flumadev/create-fluma-app/issues"
   }
 }
