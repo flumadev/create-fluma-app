@@ -26,8 +26,6 @@ async function main() {
     spaces: 2,
   });
 
-  await execa('clear');
-
   const spinner = ora(`Instalando dependencias em ${appName}...\n`).start();
 
   await execa(`${manager} install`, { cwd: projectDir });

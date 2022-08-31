@@ -1,6 +1,6 @@
 {
   "name": "create-fluma-app",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Create web application with the fluma doc pattern",
   "license": "MIT",
   "main": "index.js",
