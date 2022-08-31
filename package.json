@@ -41,7 +41,9 @@
     "@types/node": "^18.0.0",
     "tsup": "^6.1.2",
     "type-fest": "^2.14.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "@changesets/changelog-github": "^0.4.6",
+    "@changesets/cli": "^2.24.3"
   },
   "bugs": {
     "url": "https://github.com/flumadev/create-fluma-app/issues"
